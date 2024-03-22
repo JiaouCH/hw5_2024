@@ -22,6 +22,7 @@ header{
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: space-between;
 }
 
 /*Step4: Edit the navigation links */
@@ -39,26 +40,25 @@ a:link, a:visited {
 .card > header{
   background-color: #288088;
   border: 2px solid #45adad;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  border-top-right-radius: 50px;
-  border-top-left-radius: 50px;
+  padding: 20px 0px;
+  border-radius: 50px 50px 0px 0px;
 }
 
 /*Step7&8: style the card class and pricing class*/
 .card{
   display: flex;
   flex-direction: column;
-  width: 450px;
+  flex-basis: 450px;
   border-top-right-radius: 50px;
   border-top-left-radius: 50px;
 }
 
 .pricing{
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center; 
   align-items: center;
-  justify-content: center;
 }
 
 /*Step9: style the gallery class */
@@ -74,7 +74,6 @@ a:link, a:visited {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  align-items: stretch;
 }
 
 /*Media Query for Screen-Size larger than 900px */
@@ -155,6 +154,3 @@ a:link, a:visited {
     content: "\1F44D";
   }
 }
-
-      
-
