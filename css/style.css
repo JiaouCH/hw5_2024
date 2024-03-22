@@ -37,20 +37,17 @@ a:link, a:visited {
 }
 
 /*Step6: style ONLY those header elements that are direct children of a card class */
-.card > header{
-  background-color: #288088;
-  border: 2px solid #45adad;
-  padding: 20px 0px;
-  border-radius: 50px 50px 0px 0px;
+.card > header {
+  background: #288088;
+  border: 2px solid #45ADAD;
+  padding: 20px 0;
+  border-radius: 50px 50px 0 0;
 }
 
 /*Step7&8: style the card class and pricing class*/
 .card{
-  display: flex;
-  flex-direction: column;
+  border-radius: 50px 50px 0 0;
   flex-basis: 450px;
-  border-top-right-radius: 50px;
-  border-top-left-radius: 50px;
 }
 
 .pricing{
@@ -154,3 +151,6 @@ a:link, a:visited {
     content: "\1F44D";
   }
 }
+
+      
+
